@@ -5,15 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio website</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://kit.fontawesome.com/6884aa9842.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- START NAVBAR -->
     <header>
       <nav id="navbar">
         <ul class="nav-ul">
-          <li class="nav-li"><a href="#" class="nav-link">About</a></li>
-          <li class="nav-li"><a href="#" class="nav-link">Work</a></li>
-          <li class="nav-li"><a href="#" class="nav-link">Contact</a></li>
+          <li class="nav-li">
+            <a class="nav-link" href="#welcome-section">About</a>
+          </li>
+          <li class="nav-li"><a class="nav-link" href="#projects">Work</a></li>
+          <li class="nav-li">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -140,8 +149,57 @@
             </a>
           </div>
         </div>
+        <a
+          id="profile-link"
+          href="https://github.com/Master-Code234"
+          target="_blank"
+        >
+          <button class="show-btn">Show all</button>
+        </a>
       </section>
       <!-- END PROJECTS SECTION -->
+
+      <!-- START CONTACT SECTION -->
+      <section id="contact">
+        <h2 class="contact-h2">Let's work together...</h2>
+        <p class="contact-p">How do you take your coffee?</p>
+
+        <div class="contact-container">
+          <a
+            class="contact-link"
+            href="https://github.com/Master-Code234"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github"></i>
+            Github
+          </a>
+
+          <a
+            class="contact-link"
+            href="https://www.linkedin.com/in/caleb-mcauley-338092270/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+            Linkedin
+          </a>
+
+          <a
+            target="_blank"
+            class="contact-link"
+            href="https://www.freecodecamp.org/fcccdeec070-31aa-4c8d-86b0-45235ebf698c"
+          >
+            <i class="fa-brands fa-free-code-camp"></i>
+            FreeCodeCamp
+          </a>
+        </div>
+      </section>
+      <!-- END CONTACT SECTION -->
+      <hr class="line" />
+      <!-- START FOOTER -->
+      <footer class="footer">
+        <h3 class="footer-h3">&copy Caleb 2023</h3>
+      </footer>
+      <!-- END FOOTER -->
     </main>
   </body>
 </html>
